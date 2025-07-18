@@ -6,7 +6,7 @@ I have made all of those during my 2025 6-month internship.
 
 # Validation of structure formation
 
-Here we aim to validate structure formation in Dyablo.
+Here we aim to validate structure formation in Dyablo.  
 Check folder **validation**.
 
 ## The most important codes here are : 
@@ -24,23 +24,23 @@ NB : Here stylesheet.mplstyle is simply my way to use matplotlib.
 
 ## The folders here are :
 
-### [datastageM2](datastageM2)
+### [datastageM2](validation/datastageM2)
 Symbolic link to the data of one simulation that I've studied. It contains snapshots of the simulation at different and also some metadata.
 
-### [outputs](outputs)
+### [outputs](validation/outputs)
 Folder automatically created by PySR when trying to find a fit. Not very important.
 
-### [previous_codes](previous_codes)
+### [previous_codes](validation/previous_codes)
 All the scripts and notebooks I have made during my internship. Most of them are not useful and the rest were created for me to able to easily make plots for my internship report/oral.
 
-### [saved_results](saved_results)
+### [saved_results](validation/saved_results)
 Here you may find images of my results or data that comes from some computation :  
-[saved_results](saved_results/)  
-├── [data](saved_results/data)  
-│   ├── [R_vary](saved_results/data/R_vary) -  csv files for the computation of the fraction of collapsed mass for different value of the radius of the subregions.  
-│   └── [Particle data](saved_results/data/ParticleData) -  Save of the data I used to my studies (in case the symbolic link breaks).  
-├── [misc](saved_results/misc) - Miscellaneous images that don't belong in z_vary_results.  
-└── [z_vary_results](saved_results/z_vary_results) - Images (svg+pdf) for the results of my study of the simulation. There is : the Halo Mass function, the Conditional Mass Function depending on the environment ; the comparison between the empirical et theoretical fraction of collapsed mass.
+[saved_results](validation/saved_results/)  
+├── [data](validation/saved_results/data)  
+│   ├── [R_vary](validation/saved_results/data/R_vary) -  csv files for the computation of the fraction of collapsed mass for different value of the radius of the subregions.  
+│   └── [Particle data](validation/saved_results/data/ParticleData) -  Save of the data I used to my studies (in case the symbolic link breaks).  
+├── [misc](validation/saved_results/misc) - Miscellaneous images that don't belong in z_vary_results.  
+└── [z_vary_results](validation/saved_results/z_vary_results) - Images (svg+pdf) for the results of my study of the simulation. There is : the Halo Mass function, the Conditional Mass Function depending on the environment ; the comparison between the empirical et theoretical fraction of collapsed mass.
 
 # Improving Dyablo's ionization module
 
