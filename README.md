@@ -70,6 +70,6 @@ ndot is the stellar emissivity which is the number of photons emitted by second 
 
 rho_crit was used before but serve no purpose anymore since I have added my code.
 
-write_variables, zre was previously used to store the value of the redshift for the end of reionization. Now the purpose of zre is to **store de stellar mass density in each cell**.
+write_variables, zre was previously used to store the value of the redshift for the end of reionization. Now the purpose of zre is to **store the stellar mass density in each cell**.
 
 We also made it so the size of each cell is 1 Mpc to work well with the fit.
