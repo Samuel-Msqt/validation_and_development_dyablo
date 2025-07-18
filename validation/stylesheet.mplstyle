@@ -1,0 +1,31 @@
+# Set fontsize and options
+font.size: 16
+font.family: STIXGeneral
+mathtext.fontset: stix
+
+# Set the figure size 
+#figure.figsize : 11.69,8.27 #full a4 length
+figure.figsize : 7.5, 4.5
+
+# Remove padding
+#figure.constrained_layout.use: True
+#figure.constrained_layout.h_pad: 0.005
+#figure.constrained_layout.w_pad: 0.005
+#figure.constrained_layout.hspace: 0.005
+#figure.constrained_layout.wspace: 0.005
+
+# Change ticks to face in instead of out
+xtick.direction: in
+ytick.direction: in
+
+# Change color cycle
+#axes.prop_cycle: cycler('color', ['0077BB','33BBEE', 'EE7733', 'CC3311', 'EE3377', 'BBBBBB'])
+#3rd color , '009988'
+axes.prop_cycle: cycler('color', [ '0077BB', 'EE7733', '33BBEE', '009988', 'CC3311', 'EE3377', 'BBBBBB'])
+# Remove Legend box
+legend.frameon: False
+legend.fontsize: 14
+
+axes.labelsize: 16
+xtick.labelsize: 14
+ytick.labelsize: 14

@@ -1,0 +1,280 @@
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Note: redshifts have been re-sorted (earliest first)
+Best equation: complexity                                                      28
+loss                                                      0.000131
+equation         tanh(tanh(tanh(sqrt(tanh(x1) + -0.097091846) /...
+score                                                     0.145669
+sympy_format     tanh(tanh(tanh(sqrt(tanh(x1) - 0.097091846)/ex...
+lambda_format    PySRFunction(X=>tanh(tanh(tanh(sqrt(tanh(x1) -...
+Name: 26, dtype: object
+Equation candidates with R² scores:
+
+Equation 0:
+  Expression : x1
+  Complexity : 1
+  R² Score   : -53.380121
+
+Equation 1:
+  Expression : 0.0739098800000000
+  Complexity : 2
+  R² Score   : -0.000000
+
+Equation 2:
+  Expression : x2/17.620863
+  Complexity : 4
+  R² Score   : 0.159697
+
+Equation 3:
+  Expression : 0.057340067*Abs(x2)
+  Complexity : 5
+  R² Score   : 0.170766
+
+Equation 4:
+  Expression : x2/(x0 + 5.272344)
+  Complexity : 6
+  R² Score   : 0.506563
+
+Equation 5:
+  Expression : Abs(x2/(x0 + 5.0909276))
+  Complexity : 7
+  R² Score   : 0.538421
+
+Equation 6:
+  Expression : x1*x2/(x0 + exp(x1))
+  Complexity : 8
+  R² Score   : 0.659888
+
+Equation 7:
+  Expression : Abs(x1*x2/(x0 + exp(x1)))
+  Complexity : 9
+  R² Score   : 0.707236
+
+Equation 8:
+  Expression : Abs(sin(x1)*tanh(x2/cosh(sqrt(x0))))
+  Complexity : 10
+  R² Score   : 0.777221
+
+Equation 9:
+  Expression : tanh(sin(x1)*tanh(Abs(x2/cosh(sqrt(x0)))))
+  Complexity : 11
+  R² Score   : 0.819738
+
+Equation 10:
+  Expression : tanh(x1)*tanh((x2 - 1*(-0.6606745))/(x0 + x1))
+  Complexity : 12
+  R² Score   : 0.871101
+
+Equation 11:
+  Expression : tanh((x2 + 0.7662412)/cosh(sqrt(x0)))*tanh(tanh(x1))
+  Complexity : 13
+  R² Score   : 0.935885
+
+Equation 12:
+  Expression : tanh(tanh((x2 + 0.7942402)/cosh(sqrt(x0)))*tanh(sin(x1)))
+  Complexity : 14
+  R² Score   : 0.949638
+
+Equation 13:
+  Expression : tanh(sin(tanh((x2 + 0.8114158)/cosh(sqrt(x0)))*tanh(sin(x1))))
+  Complexity : 15
+  R² Score   : 0.950624
+
+Equation 14:
+  Expression : tanh(tanh(sinh(tanh((x2 + 0.80979866)/cosh(sqrt(x0))))*tanh(tanh(x1))))
+  Complexity : 16
+  R² Score   : 0.955694
+
+Equation 15:
+  Expression : tanh(tanh(tanh(tan(tanh((x2 + 0.79581195)/cosh(sqrt(x0))))*tanh(tanh(x1)))))
+  Complexity : 17
+  R² Score   : 0.958981
+
+Equation 16:
+  Expression : tanh(tanh(tanh(sinh(sinh(tanh((x2 + 0.80133766)/cosh(sqrt(x0)))))*tanh(tanh(x1)))))
+  Complexity : 18
+  R² Score   : 0.959520
+
+Equation 17:
+  Expression : tanh((x1*exp(-0.68206894**x2*(x0 + exp(x1)/x1)))**0.31093377)
+  Complexity : 19
+  R² Score   : 0.965616
+
+Equation 18:
+  Expression : tanh(tanh((x1/cosh(0.68680894**x2*(x0 + exp(x1)/x1)))**0.34733707))
+  Complexity : 20
+  R² Score   : 0.970503
+
+Equation 19:
+  Expression : sin(tanh(tanh((x1/cosh(0.68291116**x2*(x0 + exp(x1)/x1)))**0.34782735)))
+  Complexity : 21
+  R² Score   : 0.971061
+
+Equation 20:
+  Expression : tanh(((x1 - 0.099519655)/exp(0.68206894**x2*x0 + exp(0.40844724**x2)))**0.32370356)
+  Complexity : 22
+  R² Score   : 0.979782
+
+Equation 21:
+  Expression : tanh(tanh(((x1 - 0.09841155)/exp(0.6962439**x2*(x0 + exp(0.519768**x2))))**0.34355226))
+  Complexity : 23
+  R² Score   : 0.985122
+
+Equation 22:
+  Expression : tanh(tanh(tanh(((x1 - 0.09927736)/exp(0.7018697**x2*(x0 + exp(0.81282115 - x2))))**0.3687044)))
+  Complexity : 24
+  R² Score   : 0.988178
+
+Equation 23:
+  Expression : tanh(tanh(tanh(((x1 - 0.09927736)/exp(0.70115733**x2*(x0 + exp(-x2 + cos(sin(x1))))))**0.37195528)))
+  Complexity : 25
+  R² Score   : 0.988774
+
+Equation 24:
+  Expression : sin(tanh(tanh(tanh(((x1 - 0.09927736)/exp(0.70115733**x2*(x0 + exp(-x2 + cos(sin(x1))))))**0.36647883))))
+  Complexity : 26
+  R² Score   : 0.989265
+
+Equation 25:
+  Expression : sin(tanh(tanh(tanh(((x1 - 0.09927736)/exp(0.70115733**x2*(x0 + exp(cos(sin(x1)) - sinh(x2)))))**0.37195528))))
+  Complexity : 27
+  R² Score   : 0.989690
+
+Equation 26:
+  Expression : tanh(tanh(tanh(sqrt(tanh(x1) - 0.097091846)/exp(0.71523184**x2*(x0 - x2 + cosh(0.3870749**x2)))**0.36494923)))
+  Complexity : 28
+  R² Score   : 0.991087
+
+Equation 27:
+  Expression : sin(tanh(tanh(tanh(sqrt(tanh(x1 - 0.097091846))/exp(0.71523184**x2*(x0 - x2 + cosh(0.3870749**x2)))**0.36494923))))
+  Complexity : 29
+  R² Score   : 0.992074
+
+Equation 28:
+  Expression : sin(tanh(tanh(tanh(sqrt(tanh(Abs(x1 - 0.10305654)))/exp(0.71400577**x2*(x0 - x2 + cosh(0.38387465**x2)))**0.36481488))))
+  Complexity : 30
+  R² Score   : 0.992260
+
+───────────────────────────────────────────────────────────────────────────────────────────────────
+Complexity  Loss       Score      Equation
+1           8.001e-01  0.000e+00  y = x1
+2           1.471e-02  3.996e+00  y = 0.07391
+4           1.236e-02  8.700e-02  y = x2 / 17.621
+5           1.220e-02  1.326e-02  y = abs(x2 * 0.05734)
+6           7.260e-03  5.191e-01  y = x2 / (x0 + 5.2723)
+7           6.792e-03  6.674e-02  y = abs(x2 / (x0 + 5.0909))
+8           5.004e-03  3.054e-01  y = x1 * (x2 / (exp(x1) + x0))
+9           4.308e-03  1.499e-01  y = abs(x2 * (x1 / (x0 + exp(x1))))
+10          3.278e-03  2.732e-01  y = abs(tanh(x2 / cosh(sqrt(x0))) * sin(x1))
+11          2.652e-03  2.118e-01  y = tanh(tanh(abs(x2 / cosh(sqrt(x0)))) * sin(x1))
+12          1.897e-03  3.354e-01  y = tanh(x1) * tanh((x2 - -0.66067) / (x0 + x1))
+13          9.434e-04  6.983e-01  y = tanh((x2 - -0.76624) / cosh(sqrt(x0))) * tanh(tanh(x1)...
+                                      )
+14          7.410e-04  2.414e-01  y = tanh(tanh(sin(x1)) * tanh((x2 - -0.79424) / cosh(sqrt(...
+                                      x0))))
+15          7.265e-04  1.977e-02  y = tanh(sin(tanh(sin(x1)) * tanh((x2 - -0.81142) / cosh(s...
+                                      qrt(x0)))))
+16          6.519e-04  1.083e-01  y = tanh(tanh(sinh(tanh((x2 - -0.8098) / cosh(sqrt(x0)))) ...
+                                      * tanh(tanh(x1))))
+17          6.035e-04  7.709e-02  y = tanh(tanh(tanh(tanh(tanh(x1)) * tan(tanh((x2 - -0.7958...
+                                      1) / cosh(sqrt(x0)))))))
+18          5.956e-04  1.323e-02  y = tanh(tanh(tanh(tanh(tanh(x1)) * sinh(sinh(tanh((x2 - -...
+                                      0.80134) / cosh(sqrt(x0))))))))
+19          5.059e-04  1.632e-01  y = tanh((x1 / exp((exp(x1 - log(x1)) + x0) * (0.68207 ^ x...
+                                      2))) ^ 0.31093)
+20          4.340e-04  1.533e-01  y = tanh(tanh((x1 / cosh((x0 + exp(x1 - log(x1))) * (0.686...
+                                      81 ^ x2))) ^ 0.34734))
+21          4.258e-04  1.910e-02  y = sin(tanh(tanh((x1 / cosh((exp(x1 - log(x1)) + x0) * (0...
+                                      .68291 ^ x2))) ^ 0.34783)))
+22          2.975e-04  3.586e-01  y = tanh(((-0.09952 + x1) / exp((x0 * (0.68207 ^ x2)) + ex...
+                                      p(0.40845 ^ x2))) ^ 0.3237)
+23          2.189e-04  3.067e-01  y = tanh(tanh(((x1 + -0.098412) / exp((0.69624 ^ x2) * (x0...
+                                       + exp(0.51977 ^ x2)))) ^ 0.34355))
+24          1.740e-04  2.299e-01  y = tanh(tanh(tanh(((x1 + -0.099277) / exp((exp(0.81282 - ...
+                                      x2) + x0) * (0.70187 ^ x2))) ^ 0.3687)))
+25          1.652e-04  5.172e-02  y = tanh(tanh(tanh(((-0.099277 + x1) / exp((0.70116 ^ x2) ...
+                                      * (x0 + exp(cos(sin(x1)) - x2)))) ^ 0.37196)))
+26          1.580e-04  4.475e-02  y = sin(tanh(tanh(tanh(((x1 + -0.099277) / exp((exp(cos(si...
+                                      n(x1)) - x2) + x0) * (0.70116 ^ x2))) ^ 0.36648))))
+27          1.517e-04  4.036e-02  y = sin(tanh(tanh(tanh(((x1 + -0.099277) / exp((0.70116 ^ ...
+                                      x2) * (exp(cos(sin(x1)) - sinh(x2)) + x0))) ^ 0.37196))))
+28          1.311e-04  1.457e-01  y = tanh(tanh(tanh(sqrt(tanh(x1) + -0.097092) / (exp((0.71...
+                                      523 ^ x2) * ((cosh(0.38707 ^ x2) - x2) + x0)) ^ 0.36495)))...
+                                      )
+29          1.166e-04  1.173e-01  y = sin(tanh(tanh(tanh(sqrt(tanh(x1 + -0.097092)) / (exp((...
+                                      0.71523 ^ x2) * ((x0 - x2) + cosh(0.38707 ^ x2))) ^ 0.3649...
+                                      5)))))
+30          1.139e-04  2.380e-02  y = sin(tanh(tanh(tanh(sqrt(tanh(abs(x1 + -0.10306))) / (e...
+                                      xp(((x0 - x2) + cosh(0.38387 ^ x2)) * (0.71401 ^ x2)) ^ 0....
+                                      36481)))))
+───────────────────────────────────────────────────────────────────────────────────────────────────
+  - outputs/20250707_100432_2zgnOi/hall_of_fame.csv
